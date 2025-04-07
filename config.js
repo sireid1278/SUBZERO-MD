@@ -50,5 +50,4 @@ module.exports = {
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",              // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates?
-};SUBZERO-MD~ezJRWZaT#qWQ7m7kuW1FGIX-WKH7s851wB_VlY9v4yErXC_7KOtM
-SUBZERO-MD~ezJRWZaT#qWQ7m7kuW1FGIX-WKH7s851wB_VlY9v4yErXC_7KOtM
+};
