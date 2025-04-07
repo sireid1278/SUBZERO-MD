@@ -1,4 +1,4 @@
-const fs = require('fs');
+SUBZERO-MD~ezJRWZaT#qWQ7m7kuW1FGIX-WKH7s851wB_VlY9v4yErXC_7KOtMconst fs = require('fs');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 function convertToBool(text, fault = 'true') {
@@ -7,14 +7,14 @@ function convertToBool(text, fault = 'true') {
 
 module.exports = {
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~ezJRWZaT#qWQ7m7kuW1FGIX-WKH7s851wB_VlY9v4yErXC_7KOtM",  // Your bot's session ID (keep it secure)
     PREFIX: process.env.PREFIX || ".",         // Command prefix (e.g., "., / ! * - +")
     BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",  // Bot's GitHub repo
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "263719647303",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "+254780564373",  // Owner's WhatsApp number
     OWNER_NAME: process.env.OWNER_NAME || "Mr Frank",           // Owner's name
     DEV: process.env.DEV || "263719647303",                     // Developer's contact number
     DEVELOPER_NUMBER: '263719647303@s.whatsapp.net',            // Developer's WhatsApp ID
@@ -26,14 +26,14 @@ module.exports = {
     READ_MESSAGE: process.env.READ_MESSAGE || "false",          // Mark messages as read automatically?
 
     // ===== REACTION & STICKER SETTINGS =====
-    AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
+    AUTO_REACT: process.env.AUTO_REACT || "true",              // Auto-react to messages?
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
     CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
     STICKER_NAME: process.env.STICKER_NAME || "SUBZERO-MD",     // Sticker pack name
     AUTO_STICKER: process.env.AUTO_STICKER || "false",          // Auto-send stickers?
 
     // ===== MEDIA & AUTOMATION =====
-    AUTO_VOICE: process.env.AUTO_VOICE || "false",              // Auto-send voice messages?
+    AUTO_VOICE: process.env.AUTO_VOICE || "true",              // Auto-send voice messages?
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
     AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
     ALIVE_IMG: process.env.ALIVE_IMG || "https://i.postimg.cc/zv76KffW/IMG-20250115-WA0020.jpg",  // Bot's "alive" image
@@ -50,4 +50,5 @@ module.exports = {
     PUBLIC_MODE: process.env.PUBLIC_MODE || "true",              // Allow public commands?
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",        // Show bot as always online?
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates?
-};
+};SUBZERO-MD~ezJRWZaT#qWQ7m7kuW1FGIX-WKH7s851wB_VlY9v4yErXC_7KOtM
+SUBZERO-MD~ezJRWZaT#qWQ7m7kuW1FGIX-WKH7s851wB_VlY9v4yErXC_7KOtM
